@@ -10,7 +10,7 @@
 ```
 python test.py
 ```
-**Change the DataSet to 'R50' or 'R18' for processing other datasets, see the following code**
+**Change the DataSet to 'R50' or 'R18' for processing other datasets, see the following line in the test.py**
 ```
 DataSet = 'R66'
 ```
@@ -23,7 +23,7 @@ DataSet = 'R66'
 }
 ```
 ## ATPD_algorithm
-**Copy the csv files in result fold of data_process package to the data fold of ATPD_algorithm package, configure the path in the configfile.txt**
+**Copy the csv files in the result fold of data_process package to the data fold of ATPD_algorithm package. Similarly, configure the paths in the configfile.txt**
 ```
 configuration_file = './configfile.txt'
 ```
@@ -33,7 +33,14 @@ configuration_file = './configfile.txt'
 "testFile": "spa_temp_feature_test.csv"
 }
 ```
-**Set the values of parameters for each dataset, and run the test.py in ATPD_algorithm package**
+**Set the parameters for each dataset, like the following parameters for R66 dataset**
+```
+#some parameters for R66
+Nc = 450
+r = 50
+rho = 2.0
+```
+**And finally run the test.py in ATPD_algorithm package**
 ```
 python test.py
 ```
