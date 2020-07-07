@@ -3,8 +3,6 @@
 - Pandas=='0.25.0'
 - Scikit-learn=='0.20.3'
 - Numpy=='1.16.4'
-- Numpydoc=='0.8.0'
-- Jsonschema=='3.0.1'
 ## Data Process
 **Run the test.py file in the data_process package**
 ```
