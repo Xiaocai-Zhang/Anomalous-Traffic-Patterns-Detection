@@ -12,33 +12,31 @@ python test.py
 ```
 DataSet = 'R66'
 ```
-**And also change the corresponding paths in the configfile.txt, see the following settings in the configfile.txt**
+## OFF-ATPD_algorithm
+**Copy the csv files in the result fold of data_process package to the data fold of OFF_ATPD_algorithm package. Set the parameters for each dataset, like the following parameters for R66 dataset**
 ```
-{"pathTrain": "./data/R66/train-rgb/",
-"pathTest": "./data/R66/test-rgb/",
-"pathOutTrain": "./result/R66/spa_temp_feature_train.csv",
-"pathOutTest": "./result/R66/spa_temp_feature_test.csv"
-}
-```
-## ATPD_algorithm
-**Copy the csv files in the result fold of data_process package to the data fold of ATPD_algorithm package. Similarly, configure the paths in the configfile.txt**
-```
-configuration_file = './configfile.txt'
-```
-```
-{"pathIn": "./data/R66/",
-"trainFile": "spa_temp_feature_train.csv",
-"testFile": "spa_temp_feature_test.csv"
-}
-```
-**Set the parameters for each dataset, like the following parameters for R66 dataset**
-```
-#some parameters for R66
+#parameters for R66
+DataSet = 'R66'
 Nc = 450
 r = 50
 rho = 2.0
 ```
-**And finally run the test.py in ATPD_algorithm package**
+**Run the test.py in OFF-ATPD_algorithm package**
+```
+python test.py
+```
+## ON-ATPD_algorithm
+**Copy the csv files in the result fold of data_process package to the data fold of ON_ATPD_algorithm package. Set the parameters for each dataset, like the following parameters for R66 dataset**
+```
+DataSet = 'R66'
+seqtime = 18
+Nc = 450
+r = 50
+rho = 2.0
+epsilon = 0.01
+n = 1
+```
+**Run the test.py in ON-ATPD_algorithm package**
 ```
 python test.py
 ```
