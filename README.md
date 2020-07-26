@@ -35,7 +35,7 @@ rho = 2.0
 epsilon = 0.01
 n = 1
 ```
-**Run the test.py to execute the ON-ATPD algorithm **
+**Run the test.py to execute the ON-ATPD algorithm**
 ```
 python test.py
 ```
