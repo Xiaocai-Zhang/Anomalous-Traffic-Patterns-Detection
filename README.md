@@ -15,7 +15,6 @@ DataSet = 'R66'
 ## OFF-ATPD Algorithm
 **Copy the csv files in the result fold of data_process package to the data fold of OFF_ATPD_algorithm package. Set the parameters for each dataset, like the following parameters for R66 dataset**
 ```
-#parameters for R66
 DataSet = 'R66'
 Nc = 450
 r = 50
