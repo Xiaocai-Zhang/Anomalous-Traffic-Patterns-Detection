@@ -8,7 +8,7 @@
 ```
 python test.py
 ```
-**Change the DataSet to 'R50' or 'R18' for processing other datasets, see the following line in the test.py**
+**Configure the DataSet to 'R50' or 'R18' for processing other datasets, see the following line in the test.py**
 ```
 DataSet = 'R66'
 ```
