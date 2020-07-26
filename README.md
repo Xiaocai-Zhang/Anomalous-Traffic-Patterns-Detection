@@ -12,7 +12,7 @@ python test.py
 ```
 DataSet = 'R66'
 ```
-## OFF-ATPD_algorithm
+## OFF-ATPD Algorithm
 **Copy the csv files in the result fold of data_process package to the data fold of OFF_ATPD_algorithm package. Set the parameters for each dataset, like the following parameters for R66 dataset**
 ```
 #parameters for R66
@@ -25,7 +25,7 @@ rho = 2.0
 ```
 python test.py
 ```
-## ON-ATPD_algorithm
+## ON-ATPD Algorithm
 **Copy the csv files in the result fold of data_process package to the data fold of ON_ATPD_algorithm package. Set the parameters for each dataset, like the following parameters for R66 dataset**
 ```
 DataSet = 'R66'
